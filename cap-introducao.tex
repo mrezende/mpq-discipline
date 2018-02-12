@@ -2,59 +2,26 @@
 \chapter{Introdução}
 \label{cap:introducao}
 
-Escrever bem é uma arte que exige muita técnica e dedicação. Há vários bons livros
-sobre como escrever uma boa dissertação ou tese. Um dos trabalhos pioneiros e mais
-conhecidos nesse sentido é o livro de \citet{eco:09} intitulado 
-\emph{Como se faz uma tese}; É uma leitura bem interessante mas, como foi escrito 
-em 1977 e é voltado para teses de graduação na Itália, não se aplica tanto a nós.
+Aprender a programar não é uma tarefa fácil. Há diversos estudos que apontam para a alta taxa de evasão dos alunos dos cursos de Ciência da Computação ???. E outros estudos apontam a alta taxa de reprovação por parte dos alunos nos cursos de introdução à programação. A reprovação no curso de introdução à programação é um dos fatores que contribuem para a desistência do curso (preciso achar algum estudo que aponte isso). 
 
-Para a escrita de textos em Ciência da Computação, o livro de Justin Zobel, 
-\emph{Writing for Computer Science} \citep{zobel:04} é uma leitura obrigatória. 
-O livro \emph{Metodologia de Pesquisa para Ciência da Computação} de 
-\citet{waz:09} também merece uma boa lida.
-Já para a área de Matemática, dois livros recomendados são o de Nicholas Higham,
-\emph{Handbook of Writing for Mathematical Sciences} \citep{Higham:98} e o do criador
-do \TeX, Donald Knuth, juntamente com Tracy Larrabee e Paul Roberts, 
-\emph{Mathematical Writing} \citep{Knuth:96}.
+Para aprender a programar, segundo XXX é necessário que o aluno tenha as seguintes habilidades ????? (reescrever). Estas habilidades também não são garantias de aprendizagem, há diversos outros fatores a serem considerados como social, psicológico, motivação, contrato didático entre professor e aluno, didática do professor etc. 
 
-O uso desnecessário de termos em lingua estrangeira deve ser evitado. No entanto,
-quando isso for necessário, os termos devem aparecer \emph{em itálico}.
+E segundo o estudo YYY, os instrutores e professores tem dificuldade em identificar quais são os erros mais cometidos pelos alunos. De acordo com o YYY, a maioria dos professores não conseguiu identificar quais são as dificuldades dos alunos, quando confrontados com entrevistas feitas com ambos e após uma análise (reescrever).
 
-\begin{small}
-\begin{verbatim}
-Modos de citação:
-indesejável: [AF83] introduziu o algoritmo ótimo.
-indesejável: (Andrew e Foster, 1983) introduziram o algoritmo ótimo.
-certo : Andrew e Foster introduziram o algoritmo ótimo [AF83].
-certo : Andrew e Foster introduziram o algoritmo ótimo (Andrew e Foster, 1983).
-certo : Andrew e Foster (1983) introduziram o algoritmo ótimo.
-\end{verbatim}
-\end{small}
+Há estudos que tentam identificar quais são os erros mais comuns cometidos pelos alunos na aprendizagem de programação. Porém, a maioria dos estudos adotam a abordagem de entrevista com alunos e professores, catalogação dos erros verificados e posterior análise para validá-los (verificar se está certo??) \cite{Hristova:2003:ICJ:792548.611956}.  (dificuldade e erro sao a mesma coisa?)
 
-Uma prática recomendável na escrita de textos é descrever as legendas das
-figuras e tabelas em forma auto-contida: as legendas devem ser razoavelmente
-completas, de modo que o leitor possa entender a figura sem ler o texto onde a
-figura ou tabela é citada.  
+Com o aumento do poder computacional, crescente uso de ferramentas de aprendizagem de máquina e a grande oferta de repositórios de código-fontes como Github, por exemplo, nasce o termo Big Code. Big Code refere-se ao conhecimento que podemos adquirir a partir da análise dos repositórios de código fonte através de ferramentas de aprendizagem de máquina. Este é um novo desafio, construir ferramentas que sejam capazes de aprender a partir dos repositórios de código fonte. Com o conhecimento que podemos adquirir a partir da análise dos repositórios, podemos construir ferramentas para analisar a arquitetura de um projeto, verificar se o código fonte ou o nome do método está de acordo com a convenção, detectar erros de execução de forma antecipada. (reescrever com referências)
 
-Apresentar os resultados de forma simples, clara e completa é uma tarefa que
-requer inspiração. Nesse sentido, o livro de \citet{tufte01:visualDisplay},
-\emph{The Visual Display of Quantitative Information}, serve de ajuda na
-criação de figuras que permitam entender e interpretar dados/resultados de forma
-eficiente.
+Com as ferramentas de aprendizagem de máquina, é possível também identificar quais são os erros mais comuns cometidos pelos alunos. Esta técnica é utilizada para dar uma resposta automática para o aluno, permitindo que ele receba uma avaliação mais rápida que a dada pelo professor. Segundo o estudo XXX, o uso de aprendizagem de máquina permitiu criar uma ferramenta para detectar erros de sintaxe corrigi-los. Um texto publicado no site da Microsoft, mostrou como o uso do algoritmo de \textit{Deep Learning} foi eficaz para identificar as correções necessárias que o aluno deveria fazer para que o programa estivesse correto (reescrever).
 
-% \emph{Thesis are random access. Do NOT feel obliged to read a thesis from beginning to end.}
+A pergunta que esta dissertação irá responder é quais erros são identificáveis e mais comuns que uma ferramenta de aprendizagem de máquina consegue detectar a partir de um repositório de código-fonte previamente analisados? Quais são os tipos de erros facilmente identificáveis? Qual a diferença entre os erros encontrados pela ferramenta e os erros identificados na literatura, principalmente, erros obtidos através de entrevistas com alunos e professores? Esta técnica é aplicável a todas as linguagens? Caso seja aplicável em todas as linguagens, quais erros são mais facilmente identificáveis?
 
 
-
-%% ------------------------------------------------------------------------- %%
 \section{Considerações Preliminares}
 \label{sec:consideracoes_preliminares}
 
-Considerações preliminares\footnote{Nota de rodapé(não abuse).}\index{genoma!projetos}.
-% index permite acrescentar um item no indice remissivo
-Texto texto texto texto texto texto texto texto texto texto texto texto texto
-texto texto texto texto texto texto texto texto texto texto texto texto texto
-texto texto texto texto texto texto texto.
+
+
  
 
 %% ------------------------------------------------------------------------- %%
@@ -69,16 +36,7 @@ texto texto texto texto texto texto.
 \section{Contribuições}
 \label{sec:contribucoes}
 
-As principais contribuições deste trabalho são as seguintes:
 
-\begin{itemize}
-  \item Item 1. Texto texto texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto texto texto.
-
-  \item Item 2. Texto texto texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto texto texto.
-
-\end{itemize}
 
 %% ------------------------------------------------------------------------- %%
 \section{Organização do Trabalho}
