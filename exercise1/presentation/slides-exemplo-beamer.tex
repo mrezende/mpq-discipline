@@ -1,0 +1,415 @@
+% slides-exemplo-beamer
+%
+% Sb Out  1 19:47:43 BRT 2011
+
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[table, usenames, svgnames, dvipsnames, hyperref={pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true}]{beamer}
+\usepackage{beamerthemeshadow}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{amssymb}
+\usepackage{array}
+
+\usepackage[fixlanguage]{babelbib}
+
+%\PassOptionsToPackage{hyphens}{url}\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true]{hyperref} % links coloridos
+
+%\usepackage[all]{hypcap}                % soluciona o problema com o hyperref e capitulos
+\usepackage[square,sort,nonamebreak,comma]{natbib}  % citação bibliográfica alpha (alpha-ime.bst)
+\usepackage{setspace}                   % espaçamento flexível
+
+\graphicspath{{./images/}}
+
+\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+
+\makeatletter
+\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+
+%\usepackage{subfigure}
+%\usepackage{multicol}
+%\usepackage{colortbl}
+
+% ---------------------------------------------------------------------------- %
+% Definições beamer
+% ---------------------------------------------------------------------------- %
+\usetheme{Rochester}
+%\usetheme{Luebeck}
+\usecolortheme{rose}
+
+% Algumas definições para o layout
+\setbeamerfont{frametitle}{size=\normalsize}
+\setbeamerfont{title}{size=\normalsize}
+\beamertemplatenavigationsymbolsempty
+
+% Podem ser utilizadas imagens no background
+%\setbeamercolor{frametitle}{bg=black}
+%\usebackgroundtemplate{\includegraphics[height=\paperheight]{figuras/back.jpg}}
+
+% Os simbolos de navegacao nao sao necessarios
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{}
+
+%\setbeamertemplate{footline}[page number]{}
+%\setbeamertemplate{footline}[text line]{ \hfill {\insertframenumber}}
+
+% Indice para cada seo (aparece antes de cada section)
+\AtBeginSection[]
+{
+	\begin{frame}<handout:0>
+		\frametitle{\textbf{Agenda}}
+		\footnotesize{ \tableofcontents[currentsection,hideothersubsections] }
+	\end{frame}
+}
+
+% ---------------------------------------------------------------------------- %
+% Declarações
+% ---------------------------------------------------------------------------- %
+\DeclareGraphicsExtensions{.pdf,.jpg,.png} % compilamos apenas com pdflatex
+
+
+
+% semitransparente
+\newcommand{\semitransp}[2][35]{\color{fg!#1}#2}
+
+% \definecolor{myred}{rgb}{0.8, 0.3, 0.3}
+\definecolor{myblue}{rgb}{0.2, 0.2, 0.70196}
+
+\usepackage{framed} % utilizado para codigo fonte
+\definecolor{shadecolor}{named}{LightGray}
+
+% ---------------------------------------------------------------------------- %
+% TÃ¯Â¿Â½tulo
+% ---------------------------------------------------------------------------- %
+\title{\textbf{Tecnologias de Informação e Organizações}}
+
+\author[Marcelo de Rezende Martins]{\scriptsize
+    Marcelo de Rezende Martins\\
+    rezende.martins@gmail.com
+}
+
+\subtitle{Indústria 4.0}
+
+\institute{\\[1.0mm]
+Instituto de Pesquisas Tecnológicas\\
+IPT}
+
+\date{{\tiny \today}}
+
+
+% ---------------------------------------------------------------------------- %
+\begin{document}
+% ---------------------------------------------------------------------------- %
+
+% ---------------------------------------------------------------------------- %
+% Primeira página: slide 0
+% ---------------------------------------------------------------------------- %
+
+{%\usebackgroundtemplate{}}
+\begin{frame}[plain]
+
+
+	\titlepage
+
+	\addtocounter{framenumber}{-1}
+\end{frame}
+}
+
+
+% ---------------------------------------------------------------------------- %
+% slide 1 >
+% ---------------------------------------------------------------------------- %
+%\setbeamertemplate{footline}{\hrule \MyLogo } %\hfill\includegraphics[height=1.2cm]{figuras/olho1.png}}
+%\setbeamertemplate{footline}{\hfill\includegraphics[height=1.2cm]{figuras/olho1.png}}
+\setbeamertemplate{navigation symbols}{\large {\insertframenumber}}
+
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}[plain]
+\frametitle{}
+	\begin{block}{Artigos}
+		\begin{enumerate}
+			\item Industry 4.0 \cite{Lasi2014}
+			\item New Report Highlights Dangers of Hacked Factory Robots \cite{schneider:16}
+	\end{enumerate}
+	\end{block}
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\begin{frame}
+\frametitle{\textbf{Agenda}}
+
+	\hspace*{+4.0em}
+	\footnotesize{ \tableofcontents }
+\end{frame}
+
+
+% ---------------------------------------------------------------------------- %
+\section{Visão Geral}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{Visão geral dos artigos}
+
+	\begin{enumerate}
+			\item Indústria 4.0
+			\item Desafios da Indústria 4.0
+	\end{enumerate}
+
+\end{frame}
+
+
+% ---------------------------------------------------------------------------- %
+\section{Indústria 4.0}
+% ---------------------------------------------------------------------------- %
+
+% ---------------------------------------------------------------------------- %
+\subsection{O que é indústria 4.0?}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Evolução da Indústria} \cite{Lasi2014}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{Industry4evolution}\\
+		\tiny{\url{http://www.aberdeenessentials.com/opspro-essentials/industry-4-0-industrial-iot-manufacturing-sneak-peek/}}
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Conceitos fundamentais da indústria 4.0}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Conceitos fundamentais} \cite{Lasi2014}}
+
+	\begin{enumerate}
+		\item Fábrica Inteligente
+		\item Cyber Physical System (CPS)
+		\item Organização auto-gerenciável
+		\item Novos sistemas de distribuição e aquisição
+		\item Novos sistemas de desenvolvimento de produtos e serviços
+		\item Adaptação para as necessidades do cliente
+		\item Responsabilidade social
+	\end{enumerate}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Fábrica Inteligente}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Fábrica Inteligente}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{smart-factory}\\
+		\tiny{\url{https://www.linkedin.com/pulse/smart-factories-win-business-pathfinder/}}
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Cyber Physical Systems}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Cyber Physical Systems}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{CPSConceptMap}\\
+		\tiny{\url{http://cyberphysicalsystems.org/}}
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Organização auto-gerenciável}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Organização auto-gerenciável}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{self-organization}\\
+		\tiny{\url{https://www.linkedin.com/pulse/cognitive-business-systems-knowledge-jobs-to-be-done-gromball/}}
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Novo sistema de distribuição e aquisição}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Novo sistema de distribuição e aquisição}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{new-distributed-system}\\
+		\cite{Lasi2014}
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Novos sistemas de desenvolvimento de produtos e serviços}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Batch sizes of 1} \cite{dopico:16}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{individualized-wishes}\\
+		\tiny{\url{https://www.infoq.com/presentations/software-development-trends-innovation}}
+		
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Adaptação para as necessidades do cliente}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Necessidades do cliente}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{client-needs}\\
+		\tiny{\url{https://www.flickr.com/photos/jted/5449095780}}
+		
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Responsabilidade social}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Responsabilidade social}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{social-responsibility}\\
+		\tiny{\url{http://www.economist.com/node/10491077}}
+		
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\section{Desafios da Indústria 4.0}
+% ---------------------------------------------------------------------------- %
+
+% ---------------------------------------------------------------------------- %
+\subsection{Desafios da Indústria 4.0}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Desafios da Indústria 4.0} \cite{dopico:16}}
+
+	\begin{enumerate}
+		\item IoT e CPS
+		\item Rôbos autônomos
+		\item Manufatura aditiva
+		\item Realidade aumentada, simulação
+	\end{enumerate}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Gerenciamento da comunicação dos IOT's}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Gerencimento da comunicação dos IOT's} \cite{dopico:16}}
+
+	\begin{enumerate}
+		\item Sensores para IOT
+		\item Protocolo de comunicação entre os sensores
+		\item Padronização da linguagem de comunicação
+		\item Big Data e Cloud Computing
+	\end{enumerate}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Pré-condições para Indústria 4.0}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Pré-condições para a Indústria 4.0} \cite{dopico:16}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=0.8\textwidth]{preconditions}\\
+		\cite{europarl:16}
+		
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Perpectivas para a Indústria 4.0}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Estimativa de crescimento} \cite{pwc:16}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=1\textwidth]{additional-revenue}\\
+		\cite{pwc:16}
+		
+	\end{center}
+	
+\end{frame}
+
+% ---------------------------------------------------------------------------- %
+\subsection{Perpectivas para a Indústria 4.0}
+% ---------------------------------------------------------------------------- %
+
+\begin{frame}
+\frametitle{\textbf{Estimativa de redução de custo} \cite{pwc:16}}
+
+	\begin{center}
+		\hspace*{-0.6cm}
+		\includegraphics[width=1\textwidth]{cost-reduction}\\
+		\cite{pwc:16}
+		
+	\end{center}
+	
+\end{frame}
+
+
+% ---------------------------------------------------------------------------- %
+{%\usebackgroundtemplate{}}
+\begin{frame}[plain]
+
+	\titlepage
+
+	\addtocounter{framenumber}{-1}
+\end{frame}
+}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\begin{frame}[allowframebreaks]
+\frametitle{Referências}
+\singlespacing   % espaçamento simples
+\bibliographystyle{alpha-ime}% citação bibliográfica alpha
+\bibliography{references}  % associado ao arquivo: 'bibliografia.bib'
+\end{frame}
+
+\end{document}
