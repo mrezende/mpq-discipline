@@ -7,11 +7,12 @@
 %  
 % Obs: Leia previamente o texto do arquivo README.txt
 
-\documentclass[11pt,twoside,a4paper]{book}
+\documentclass[14pt,twoside,a4paper]{extbook}
 
 % ---------------------------------------------------------------------------- %
 % Pacotes 
 \usepackage{fontspec}
+\setmainfont{Arial} % funciona com windows/mac
 \usepackage{polyglossia}
 \setdefaultlanguage{brazil}
 %\usepackage[bf,small,compact]{titlesec} % cabe?lhos dos t?ulos: menores e compactos
@@ -34,6 +35,8 @@
 \usepackage[all]{hypcap}                    % soluciona o problema com o hyperref e capitulos
 \usepackage[round,sort,nonamebreak]{natbib} % cita?o bibliogr?ica textual(plainnat-ime.bst)
 \fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+
+\newcommand{\chaptersize}{\fontsize{14}{12}\selectfont}
 
 % ---------------------------------------------------------------------------- %
 % Cabe?lhos similares ao TAOCP de Donald E. Knuth
@@ -303,7 +306,7 @@ novices, introduction to programming, computational thinking, CS1; Programming A
 % cabe?lho para as p?inas de todos os cap?ulos
 \fancyhead[RE,LO]{\thesection}
 
-\singlespacing              % espa?mento simples
+\doublespacing              % espa?mento duplo
 %\onehalfspacing            % espa?mento um e meio
 
 \input cap-introducao        % associado ao arquivo: 'cap-introducao.tex'
@@ -319,7 +322,7 @@ novices, introduction to programming, computational thinking, CS1; Programming A
 
 % ---------------------------------------------------------------------------- %
 % Bibliografia
-\backmatter \singlespacing   % espa?mento simples
+\backmatter \doublespacing   % espa?mento duplo
 \bibliographystyle{plainnat-ime} % cita?o bibliogr?ica textual
 \bibliography{bibliografia}  % associado ao arquivo: 'bibliografia.bib'
 
