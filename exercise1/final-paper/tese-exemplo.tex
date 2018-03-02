@@ -9,6 +9,9 @@
 
 \documentclass[14pt,twoside,a4paper]{extbook}
 
+\usepackage{titlesec}
+
+
 % ---------------------------------------------------------------------------- %
 % Pacotes 
 \usepackage{fontspec}
@@ -36,7 +39,14 @@
 \usepackage[round,sort,nonamebreak]{natbib} % cita?o bibliogr?ica textual(plainnat-ime.bst)
 \fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
 
-\newcommand{\chaptersize}{\fontsize{14}{12}\selectfont}
+%\titleformat*{\chapter}{\normalsize\bfseries}
+\titleformat{\chapter}[display]
+  {\normalfont\normalsize\bfseries}{\chaptertitlename\ \thechapter}{14pt}{\Large}
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\titleformat*{\paragraph}{\normalsize\bfseries}
+\titleformat*{\subparagraph}{\normalsize\bfseries}
 
 % ---------------------------------------------------------------------------- %
 % Cabe?lhos similares ao TAOCP de Donald E. Knuth
