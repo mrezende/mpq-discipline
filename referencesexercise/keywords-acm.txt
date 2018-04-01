@@ -1,0 +1,98 @@
+Busca: (+recurrent +neural +networks +students)
+
+Searched for (+recurrent +neural +networks +students)
+
+10 results found
+--------
+Busca: rnn students
+
+Searched for (+rnn +students)
+
+5 results found
+--------
+Busca: lstm students
+
+Searched for (+lstm +students) 
+
+2 results found
+
+------
+Busca: automated grading rnn
+
+Searched for (+automated +grading +rnn) 
+
+0 results found
+
+-----
+
+Busca: automatic grading students
+
+Searched for (+automatic +grading +students) 
+
+141 results found
+
+------
+
+Busca: automatic grading neural networks
+
+Searched for (+automatic +grading +neural +networks) 
+
+3 results found
+
+-------
+
+Busca: 
+
+Searched for (+code +repair +rnn)
+
+0 results found
+
+------
+
+Busca:
+
+Searched for (+code +repair +neural +networks) 
+
+1 results found
+
+----------
+Busca:
+
+Searched for (+cs1 +neural +networks)
+
+2 results found
+
+-------
+
+Busca:
+
+Searched for (+mooc +neural +networks)
+
+11 results found
+
+
+-----
+
+BUsca:
+
+Searched for (+"big code") 
+
+9 results found
+
+
+------
+
+Busca:
+
+Searched for (+program +repair +neural +networks) 
+
+2 results found
+
+
+-----
+
+Busca:
+
+Searched for (+"deep learning" +students)
+
+53 results found

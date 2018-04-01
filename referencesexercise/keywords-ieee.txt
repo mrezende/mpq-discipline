@@ -1,0 +1,108 @@
+
+
+busca: ((automat* grad*) AND word* embed*) 
+
+
+Displaying results 1-14 of 14 for ((automat* grad*) AND word* embed*) 
+
+
+
+busca: ((code repair) AND rnn) 
+
+No results found for ((code repair) AND rnn) 
+
+
+Busca: ((automat* grad*) AND rnn) 
+Displaying results 1-25 of 32 for ((automat* grad*) AND rnn) 
+
+busca: ((automated repair) AND rnn) 
+
+No results found for ((automated repair) AND rnn) 
+
+busca: ((code repair) AND rnn) 
+
+No results found for ((code repair) AND rnn) 
+
+
+Busca: ((automated grading) AND rnn) 
+Displaying 1 of 1 result for ((automated grading) AND rnn) 
+
+Busca: ((automated grading) AND neural networks)
+
+Displaying results 1-25 of 41 for ((automated grading) AND neural networks)
+
+
+
+busca: ((recurrent neural networks) AND students) 
+
+1-25 of 41 for ((recurrent neural networks) AND students) 
+
+busca: ((rnn) AND students) 
+
+Displaying results 1-13 of 13 for ((rnn) AND students) 
+
+
+Busca: ((automated grading) AND cs1) 
+ Displaying results 1-2 of 2 for ((automated grading) AND cs1) 
+
+Busca: ((cs1) AND neural networks) 
+ Displaying 1 of 1 result for ((cs1) AND neural networks) 
+
+Busca: ("big code") 
+ Displaying results 1-6 of 6 for ("big code") 
+
+
+Busca: ((mooc*) AND rnn) 
+Displaying 1 of 1 result for ((mooc*) AND rnn) 
+
+
+Busca: ((automatic grading) AND computer science education) 
+Displaying results 1-25 of 79 for ((automatic grading) AND computer science education) 
+
+
+Paper: Automatic program assessment using static and dynamic analysis
+
+IEEE Keywords
+Performance analysis,
+Semantics,
+Intelligent systems,
+Complexity theory,
+Frequency measurement
+
+INSPEC: Controlled Indexing
+programming,
+computer science education,
+educational courses,
+program diagnostics
+
+
+INSPEC: Non-Controlled Indexing
+programing course,
+automated program assessment system,
+static analysis,
+dynamic analysis,
+programing skill,
+computer science discipline
+
+
+Author Keywords
+dynamic analysis,
+automated program evaluation,
+static analysis
+
+
+Busca: (("recurrent neural networks") AND education) 
+
+Displaying results 76-78 of 78 for (("recurrent neural networks") AND education) 
+
+Busca: (("programming errors") AND deep learning) 
+
+No results found for (("programming errors") AND deep learning) 
+
+Busca: (("automated repair") AND neural networks)
+
+No results found for (("automated repair") AND neural networks)
+
+Busca: (("fault localization") AND cs1) 
+
+No results found for (("fault localization") AND cs1) 

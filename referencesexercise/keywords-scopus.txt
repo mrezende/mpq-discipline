@@ -1,0 +1,125 @@
+code repair, MOOCs, recurrent neural network, deep learning, machine learning, rnn
+automated repair
+
+common programming errors, program repair, deep learning, fault localization, programming education
+
+recurrent neural networks, dynamic neural, dynamic program analysis
+
+programming assignments, automated grading, cs1
+
+automatic grading, computer science education, autograders
+
+Outras keywords
+
+Automated grading, Memory networks, Natural language processing,Neural networks, Word embeddings
+
+Automation, Natural language processing systems, Neural networks, Students
+
+Automated grading, Embeddings, Grading criteria, Memory component, Memory network, NAtural language processing, State-of-the-art performance, Student assessment
+
+
+Outros
+
+Learning log, Predication of student's performance, Recurrent neural network
+
+Forecasting, Recurrent neural networks, Regression analysis, Students
+
+Early prediction,
+Educational systems,
+Learning log,Log data,Multiple regression analysis,
+Performance prediction,Recurrent neural network (RNN),
+Student's performance
+
+--------------
+
+Minhas keywords:
+
+code repair, recurrent neural networks, automated repair, automatic grading, students, moocs
+
+Scopus
+1° pesquisa
+
+ TITLE-ABS-KEY ( recurrent  AND neural  AND network )  AND  ( LIMIT-TO ( SUBJAREA ,  "COMP" )  OR  LIMIT-TO ( SUBJAREA ,  "ENGI" )  OR  LIMIT-TO ( SUBJAREA ,  "MATH" ) ) 
+
+
+ 13,631 document results 
+ 
+ Acrescentando o 's', nao tem diferenca
+ 
+ TITLE-ABS-KEY ( recurrent  AND neural  AND networks )  AND  ( LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) )  
+ 
+ 13,631 document results
+ 
+ Busca com rnn
+ 
+  TITLE-ABS-KEY ( rnn )  AND  ( LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) ) 
+
+3,383 document results
+
+
+Busca com code repair
+
+TITLE-ABS-KEY ( code  AND repair )  AND  ( LIMIT-TO ( SUBJAREA ,  "ENGI" )  OR  LIMIT-TO ( SUBJAREA ,  "COMP" )  OR  LIMIT-TO ( SUBJAREA ,  "MATH" ) )  
+
+2,869 document results
+
+
+
+Busca: Code repair e rnn
+
+TITLE-ABS-KEY ( code  AND repair  AND  rnn )  AND  ( LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) ) 
+
+No documents were found.
+
+
+
+Busca: automated repair
+
+
+TITLE-ABS-KEY ( automated  AND repair )  AND  ( LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) )
+
+1,826 document results 
+
+Busca: automated repair and rnn
+
+TITLE-ABS-KEY ( automated  AND repair  AND  rnn )  AND  ( LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) )
+
+No documents were found.
+
+
+
+busca: automated grading
+
+TITLE-ABS-KEY ( automated  AND grading )  AND  ( LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) )  
+
+880 document results
+
+
+busca: automated grading and rnn
+
+ TITLE-ABS-KEY ( automated  AND grading  AND  rnn )  AND  ( LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) ) 
+
+
+ 
+ 1 document result
+ 
+ Busca: automated grading neural networks
+ 
+ TITLE-ABS-KEY ( automated  AND grading  AND  neural  AND networks )  AND  ( LIMIT-TO ( SUBJAREA ,  "ENGI " )  OR  LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "MATH " ) )
+ 
+65 document results
+
+ "recurrent neural networks"  AND  "students"
+ 
+ TITLE-ABS-KEY ( "recurrent neural networks"  AND  "students" )  AND  ( LIMIT-TO ( SUBJAREA ,  "COMP " )  OR  LIMIT-TO ( SUBJAREA ,  "ENGI " ) ) 
+ 
+ 30 document results
+
+busca: rnn AND students
+
+ TITLE-ABS-KEY ( rnn  AND  students )  AND  ( LIMIT-TO ( SUBJAREA ,  "COMP" )  OR  LIMIT-TO ( SUBJAREA ,  "MATH" )  OR  LIMIT-TO ( SUBJAREA ,  "ENGI" ) ) 
+
+ 12 document results
+
+ 
+ 
